@@ -1,0 +1,458 @@
+Running test with user yocto_machine
+-- Generating ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yocto_machine/linux-trainings/linux-system-programming/assignment1/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read gvendranas from conf/username.txt
+My user name:         gvendranas
+My config user name:  gvendranas
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+~/linux-trainings/linux-system-programming/assignment1/finder-app ~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+Missing input parameters
+Missing input parameters
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+filesdir: /tmp/aeld-data/gvendranas1.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas2.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas3.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas4.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas5.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas6.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas7.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas8.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas9.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas10.txt
+searchstr: AELD_IS_FUN
+failed: expected  The number of files are 10 and the number of matching lines are 10 in Script start
+filesdir: /tmp/aeld-data
+searchstr: AELD_IS_FUN
+Directory exists proceed
+File: ./text2.txt - Matching lines: 0
+File: ./sub-folder/text4.txt - Matching lines: 0
+File: ./sub-folder/text3.txt - Matching lines: 0
+File: ./writer.sh - Matching lines: 0
+File: ./ios/text.txt - Matching lines: 0
+File: ./finder.sh - Matching lines: 0
+File: ./text1.txt - Matching lines: 0
+File: ./finder-test.sh - Matching lines: 1
+The number of files are 1 and the number of matching lines are 1
+Script end but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas1.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas2.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas3.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas4.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas5.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas6.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas7.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas8.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas9.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD/gvendranas10.txt
+searchstr: AELD_IS_FUN
+failed: expected  The number of files are 10 and the number of matching lines are 10 in Script start
+filesdir: /tmp/aeld-data/QfB09QWeWzBOHc1VrL1sz7ZE0ro6GhnD
+searchstr: AELD_IS_FUN
+Directory exists proceed
+File: ./text2.txt - Matching lines: 0
+File: ./sub-folder/text4.txt - Matching lines: 0
+File: ./sub-folder/text3.txt - Matching lines: 0
+File: ./writer.sh - Matching lines: 0
+File: ./ios/text.txt - Matching lines: 0
+File: ./finder.sh - Matching lines: 0
+File: ./text1.txt - Matching lines: 0
+File: ./finder-test.sh - Matching lines: 1
+The number of files are 1 and the number of matching lines are 1
+Script end but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user yocto_machine
+-- Generating ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yocto_machine/linux-trainings/linux-system-programming/assignment1/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read gvendranas from conf/username.txt
+My user name:         gvendranas
+My config user name:  gvendranas
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+~/linux-trainings/linux-system-programming/assignment1/finder-app ~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+Missing input parameters
+Missing input parameters
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+filesdir: /tmp/aeld-data/gvendranas1.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas2.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas3.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas4.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas5.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas6.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas7.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas8.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas9.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/gvendranas10.txt
+searchstr: AELD_IS_FUN
+failed: expected  The number of files are 10 and the number of matching lines are 10 in The number of files are 1 and the number of matching lines are 1
+Script end but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas1.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas2.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas3.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas4.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas5.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas6.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas7.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas8.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas9.txt
+searchstr: AELD_IS_FUN
+filesdir: /tmp/aeld-data/TQ3T6DgigakBHBvLSynO4bRNAJs4qcjp/gvendranas10.txt
+searchstr: AELD_IS_FUN
+failed: expected  The number of files are 10 and the number of matching lines are 10 in The number of files are 1 and the number of matching lines are 1
+Script end but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user yocto_machine
+-- Generating ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yocto_machine/linux-trainings/linux-system-programming/assignment1/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read gvendranas from conf/username.txt
+My user name:         gvendranas
+My config user name:  gvendranas
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+~/linux-trainings/linux-system-programming/assignment1/finder-app ~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+Missing input parameters
+Missing input parameters
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/gvendranas7.txt 1 /tmp/aeld-data/gvendranas8.txt 1 /tmp/aeld-data/gvendranas4.txt 1 /tmp/aeld-data/gvendranas3.txt 1 /tmp/aeld-data/gvendranas5.txt 1 /tmp/aeld-data/gvendranas1.txt 1 /tmp/aeld-data/gvendranas2.txt 1 /tmp/aeld-data/gvendranas10.txt 1 /tmp/aeld-data/gvendranas9.txt 1 /tmp/aeld-data/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10 Script end
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z
+/tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas7.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas8.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas4.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas3.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas5.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas1.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas2.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas10.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas9.txt 1 /tmp/aeld-data/VquROTSICnummtE9YFymM8edYpKXmy1Z/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10 Script end
+success
+Test of assignment assignment1 complete with success
+Running test with user yocto_machine
+-- Generating ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yocto_machine/linux-trainings/linux-system-programming/assignment1/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read gvendranas from conf/username.txt
+My user name:         gvendranas
+My config user name:  gvendranas
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+~/linux-trainings/linux-system-programming/assignment1/finder-app ~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+Missing input parameters
+Missing input parameters
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/gvendranas7.txt 1 /tmp/aeld-data/gvendranas8.txt 1 /tmp/aeld-data/gvendranas4.txt 1 /tmp/aeld-data/gvendranas3.txt 1 /tmp/aeld-data/gvendranas5.txt 1 /tmp/aeld-data/gvendranas1.txt 1 /tmp/aeld-data/gvendranas2.txt 1 /tmp/aeld-data/gvendranas10.txt 1 /tmp/aeld-data/gvendranas9.txt 1 /tmp/aeld-data/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10 Script end
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4
+/tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas7.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas8.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas4.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas3.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas5.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas1.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas2.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas10.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas9.txt 1 /tmp/aeld-data/0f1GgiLiQE5yxSl1lkVN4lLdJAER6tg4/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10 Script end
+success
+Test of assignment assignment1 complete with success
+Running test with user yocto_machine
+-- Generating ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yocto_machine/linux-trainings/linux-system-programming/assignment1/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read gvendranas from conf/username.txt
+My user name:         gvendranas
+My config user name:  gvendranas
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+~/linux-trainings/linux-system-programming/assignment1/finder-app ~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+Missing input parameters
+Missing input parameters
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/gvendranas7.txt 1 /tmp/aeld-data/gvendranas8.txt 1 /tmp/aeld-data/gvendranas4.txt 1 /tmp/aeld-data/gvendranas3.txt 1 /tmp/aeld-data/gvendranas5.txt 1 /tmp/aeld-data/gvendranas1.txt 1 /tmp/aeld-data/gvendranas2.txt 1 /tmp/aeld-data/gvendranas10.txt 1 /tmp/aeld-data/gvendranas9.txt 1 /tmp/aeld-data/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1
+/tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas7.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas8.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas4.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas3.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas5.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas1.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas2.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas10.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas9.txt 1 /tmp/aeld-data/tsYz9doRfKfR8QEinep7Sswr3z6FXve1/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user yocto_machine
+-- Generating ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yocto_machine/linux-trainings/linux-system-programming/assignment1/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read gvendranas from conf/username.txt
+My user name:         gvendranas
+My config user name:  gvendranas
+/home/yocto_machine/linux-trainings/linux-system-programming/assignment1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+~/linux-trainings/linux-system-programming/assignment1/finder-app ~/linux-trainings/linux-system-programming/assignment1/assignment-autotest/test/assignment1 ~/linux-trainings/linux-system-programming/assignment1
+Missing input parameters
+Missing input parameters
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/gvendranas7.txt 1 /tmp/aeld-data/gvendranas8.txt 1 /tmp/aeld-data/gvendranas4.txt 1 /tmp/aeld-data/gvendranas3.txt 1 /tmp/aeld-data/gvendranas5.txt 1 /tmp/aeld-data/gvendranas1.txt 1 /tmp/aeld-data/gvendranas2.txt 1 /tmp/aeld-data/gvendranas10.txt 1 /tmp/aeld-data/gvendranas9.txt 1 /tmp/aeld-data/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v
+/tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas7.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas8.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas4.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas3.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas5.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas1.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas2.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas10.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas9.txt 1 /tmp/aeld-data/kwzkmDApsVqsvC1ImjQz1gO851VPWU2v/gvendranas6.txt 1 The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
